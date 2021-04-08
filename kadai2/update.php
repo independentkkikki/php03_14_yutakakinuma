@@ -5,8 +5,8 @@ $id = $_POST["id"];
 $name = $_POST["name"];
 $lid  = $_POST["lid"];
 $lpw = $_POST["lpw"];
-// $kanri_flg = $_POST["kanri_flg"];
-// $life_flg = $_POST["life_flg"];
+$kanri_flg = $_POST["kanri_flg"];
+$life_flg = $_POST["life_flg"];
 if (isset($_POST["kanri_flg"])) {
   $kanri_flg = 1;
 } else {
